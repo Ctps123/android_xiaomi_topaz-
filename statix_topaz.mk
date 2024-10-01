@@ -11,8 +11,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from topaz device
 $(call inherit-product, device/xiaomi/topaz/device.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common statix stuff.
 $(call inherit-product, vendor/statix/config/common.mk)
+$(call inherit-product, vendor/statix/config/gsm.mk)
 
 PRODUCT_NAME := statix_topaz
 PRODUCT_DEVICE := topaz
