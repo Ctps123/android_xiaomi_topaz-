@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixelage_topaz.mk
+    $(LOCAL_DIR)/blaze_topaz.mk
 
 COMMON_LUNCH_CHOICES := \
-    pixelage_topaz-user \
-    pixelage_topaz-userdebug \
-    pixelage_topaz-eng
+    blaze_topaz-user \
+    blaze_topaz-userdebug \
+    blaze_topaz-eng
