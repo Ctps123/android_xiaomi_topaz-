@@ -12,9 +12,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/topaz/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
-PRODUCT_NAME := blaze_topaz
+PRODUCT_NAME := derp_topaz
 PRODUCT_DEVICE := topaz
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
@@ -27,4 +27,3 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 WITH_GMS := true
 
-BLAZE_MAINTAINER := Scorpion
