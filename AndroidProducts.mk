@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_topaz.mk
+    $(LOCAL_DIR)/derp_topaz.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_topaz-user \
-    blaze_topaz-userdebug \
-    blaze_topaz-eng
+    derp_topaz-user \
+    derp_topaz-userdebug \
+    derp_topaz-eng
