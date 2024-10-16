@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/statix_topaz.mk
+    $(LOCAL_DIR)/infinity_topaz.mk
 
 COMMON_LUNCH_CHOICES := \
-    statix_topaz-user \
-    statix_topaz-userdebug \
-    statix_topaz-eng
+    infinity_topaz-user \
+    infinity_topaz-userdebug \
+    infinity_topaz-eng
